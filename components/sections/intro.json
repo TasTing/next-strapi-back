@@ -1,17 +1,15 @@
 {
-  "collectionName": "components_decoration_heroes",
+  "collectionName": "components_sections_intros",
   "info": {
-    "name": "Hero",
-    "icon": "address-card",
-    "description": ""
+    "name": "intro",
+    "icon": "address-book"
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string",
-      "required": true
+    "intro": {
+      "type": "richtext"
     },
-    "banner": {
+    "image": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
