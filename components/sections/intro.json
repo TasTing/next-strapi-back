@@ -25,6 +25,11 @@
       "type": "component",
       "repeatable": true,
       "component": "shared.social"
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.features"
     }
   }
 }

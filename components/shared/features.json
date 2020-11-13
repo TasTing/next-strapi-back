@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_shared_features",
+  "info": {
+    "name": "features",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "description": {
+      "type": "text"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}
